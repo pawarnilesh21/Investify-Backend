@@ -6,7 +6,7 @@ import cors from 'cors'
 import dotenv from 'dotenv'
 
 import connectDB from './config/db.js'
-import errorHandler from './middleWare/errorHandler.js'
+import errorHandler from './middleware/errorHandler.js'
 //import errorHandler from './middleware/errorHandler.js'
 
 // Routes
