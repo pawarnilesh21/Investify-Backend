@@ -24,7 +24,7 @@ await connectDB()
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://investiify.netlify.app/'],
+  origin: ['http://localhost:5173', 'https://investiify.netlify.app'],
  credentials: true
 }))
 
